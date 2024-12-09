@@ -42,3 +42,22 @@ p {
     padding: 0 15px;
     margin: 0 auto;;
 }
+
+#seo_content .seo-main h3{
+    font-weight: 400;
+    font-size: 22px;
+
+}
+
+#seo_content .seo-main p{
+    font-size: 15px;
+    margin: 30px 0;
+    line-height: 26px;
+}
+#seo_content .seo-main span{
+    color: red;
+}
+
+#seo_content .seo-main h4{
+    font-size: 18px;
+}
