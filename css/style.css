@@ -42,3 +42,94 @@ p {
     padding: 0 15px;
     margin: 0 auto;;
 }
+
+/* common css done */
+header{
+    padding: 5px 0;
+}
+.top{
+    background: #081621;
+}
+.top .main{
+    display: flex;
+    
+}
+.top .logo{
+    width: 130px;
+    margin-right: 40px;
+}
+.top .search{
+    width: 590px;
+    position: relative;
+    margin-top: 12px;
+
+}
+.top .search i{
+    position: absolute;
+    top: 13px;
+    right: 15px;
+}
+.top .search input{
+    width: 100%;
+    height: 40px;
+    padding: 0 20px;
+    outline: none;
+    font-size: 15px;
+}
+.top .actions{
+    width: 590px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.top .actions .offer{
+    width: 130px;
+    height: 100%;
+    padding-left: 30px;
+    position: relative;
+}
+.top .actions .offer i{
+    position: absolute;
+    top: 22px;
+    left: 10px;
+    color: red;
+}
+.top .actions .offer h3{
+    font-size: 15px;
+    padding-top: 15px;
+    color: white;
+}
+.top .actions .offer p{
+    font-size: 11px;
+    color: white;
+}
+
+.top .actions button{
+    width: 110px;
+    height: 40px;
+    font-size: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 0 15px;
+    background: linear-gradient(45deg,#00237e,#3749bb,#0bc1e9,#3749bb,#00237e);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+/* header section end */
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    font-weight: 600;
+    font-size: 14px;
+    color: #222;
+    line-height: 50px;
+    cursor: pointer;
+}
+/* navbar section end */
