@@ -44,11 +44,12 @@ p {
 }
 
 /* common css done */
-header{
-    padding: 5px 0;
-}
+
 .top{
     background: #081621;
+}
+#padding{
+    padding: 10px 0;
 }
 .top .main{
     display: flex;
@@ -120,6 +121,7 @@ header{
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
 }
+
 /* header section end */
 nav ul{
     display: flex;
