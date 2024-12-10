@@ -42,3 +42,97 @@ p {
     padding: 0 15px;
     margin: 0 auto;;
 }
+/* =============
+Banner Starts
+============== */
+#banner{
+    padding-top: 30px;
+}
+.banner_wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.banner_wrapper .left{
+    max-height: 489px;
+    max-width: 960px;
+    overflow: hidden;
+}
+.banner_wrapper .left img{
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+}
+.right .right_item1{
+    background: #FFE8A1;
+    margin-bottom: 30px;
+    padding: 25px 30px;
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.03);
+}
+.right_item1 h4{
+    color: #000;
+    text-align: center;
+    margin-bottom: 2px;
+    font-size: 16px;
+    line-height: 20px;
+}
+.right_item1 p{
+    color: #666666;
+    text-align: center;
+    margin: 0 0 14px;
+    font-size: 14px;
+    line-height: 26px;
+}
+.search_product{
+    height: 40px;
+    width: 240px;
+    border: 1px solid #fff;
+    position: relative;
+    margin-bottom: 17px;
+}
+.search_product input{
+    width: inherit;
+    height: inherit;
+    padding: 5px 30px 5px 15px;
+    border: none;
+    outline: none;
+}
+.search_product input::placeholder{
+    font-size: 15px;
+}
+.search_product i{
+    font-size: 20px;
+    position: absolute;
+    right: 2px;
+    top: 25%;
+    opacity: .5;
+}
+.right_item1 form .button{
+    display: inline-block;
+    height: 40px;
+    width: 240px;
+    display: flex;
+    align-items: center;
+    border: 2px solid rgb(56, 71, 167);
+    line-height: 38px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    justify-content: center;
+    color: rgb(56, 71, 167);
+}
+.right_item2{
+    width: 300px;
+    height: 193px;
+    overflow: hidden;
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.03);
+}
+.right_item2 img{
+    height: inherit;
+    width: inherit;
+    object-fit: cover;
+}
+/* =============
+Banner end
+============== */
