@@ -42,3 +42,238 @@ p {
     padding: 0 15px;
     margin: 0 auto;;
 }
+/* =============
+Footer Starts
+============== */
+footer{
+    padding-top: 68px;
+    padding-bottom: 40px;
+    background-color: #000;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 70px;
+}
+.top_heading{
+    display: flex;
+    column-gap: 599px;
+}
+.top_heading0{
+    display: flex;
+    column-gap: 300px;
+}
+.top_heading0 h4{
+    font-size: 14px;
+    letter-spacing: 4px;
+    margin-bottom: 30px;
+    color:#fff;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.top_heading2 h4{
+    font-size: 14px;
+    letter-spacing: 4px;
+    margin-bottom: 30px;
+    color:#fff;
+    font-weight: normal;
+    text-transform: uppercase;
+}
+.top_item1{
+    display: flex;
+    column-gap: 65px;
+}
+.top_support{
+    margin-bottom: 20px;
+}
+.top_support_item{
+    display: flex;
+    align-items: center;
+    width: 320px;
+    padding: 10px 175px 10px 20px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    border: 1px solid gray;
+    transition: all linear 0.3s;
+}
+.top_support_item:hover{
+    border: 1px solid red;
+}
+.top_support_item i{
+    color:#fff;
+    font-size: 24px;
+    position: relative;
+    margin-right: 40px;
+}
+.top_support_item i::after{
+    position: absolute;
+    content: "";
+    height: 40px;
+    width: 1px;
+    background: gray;
+    right: -19px;
+    top: -8px;
+}
+.support_item_details p{
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 4px;
+    color:gray;
+}
+.support_item_details h5{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: normal;
+    color:red;
+}
+.top_aboutus h4{
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-bottom: 30px;
+    color:#fff;
+}
+.top_aboutus ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+}
+.top_aboutus ul li a{
+    font-size: 14px;
+    color:gray;
+    font-weight: normal;
+}
+.top_item2 {
+    display: flex;
+    column-gap: 126px;
+}
+.top_item2_1 ul{
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+}
+.top_item2_1 ul li a{
+    font-size: 14px;
+    color:gray;
+    font-weight: normal;
+}
+.top_item2_2 b{
+    font-size: 15px;
+    color:#fff;
+    font-weight: normal;
+}
+.top_item2_2 p{
+    font-size: 14px;
+    color:gray;
+    font-weight: normal;
+    margin-bottom: 20px;
+    max-width: 211px;
+    margin-top: 20px;
+    line-height: 25px;
+}
+.top_item2_2 strong{
+    font-size: 14px;
+    font-weight: 500;
+    color:gray;
+    margin-bottom: 5px;
+}
+.top_item2_2 a{
+    font-size: 14px;
+    color:red;
+}
+.mid{
+    display: flex;
+    justify-content: space-between;
+     position: relative;
+}
+.top_item2::after{
+    content: "";
+    position: absolute;
+    bottom: -54px;
+    left: 0;
+    height: 1px;
+    width: 1320px;
+    background-color: gray;
+    margin: 0 auto;
+}
+.mid_item{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+.mid_item p{
+    font-size: 12px;
+    font-weight: normal;
+    color:gray;
+}
+.mid_item_inner{
+    border: 1px solid gray;
+    border-radius: 7px;
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+.mid_item_inner i{
+    color:#fff;
+    font-size: 25px;
+    margin-left: 6px;
+}
+.mid_item_inner span{
+    font-size: 10px;
+    line-height: 1px;
+    margin-bottom: 2px;
+    color:gray;
+}
+.mid_item_inner strong{
+    font-size: 14px;
+    line-height: 1px;
+    color:#fff;
+}
+.mid_item{
+    display: flex;
+    column-gap: 15px;
+}
+.mid_item .mid_item_one{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: gray;
+    line-height: 40px;
+    text-align: center;
+}
+.mid_item .mid_item_one i{
+    font-size: 20px;
+    background-color:#fff;
+}
+.mid::after{
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 1320px;
+    background-color: gray;
+    bottom: -22px;
+    left: 0;
+}
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.bottom span{
+    font-size: 12px;
+    font-weight: normal;
+    color: gray;
+}
+.bottom strong{
+    font-size: 12px;
+    font-weight: normal;
+    color: gray;
+}
+
+/* =============
+Footer Ends
+============== */
